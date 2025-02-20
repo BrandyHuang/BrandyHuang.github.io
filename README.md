@@ -1,4 +1,4 @@
-# MSBA Candidates @UC Davis
+# MSBA Candidate @UC Davis
 
 ### Education
 Business Analytics, MS
