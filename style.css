@@ -4,14 +4,14 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #e8f5e9; /* Light blue background */
-    color: #1b5e20;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #444; /* Dark gray font for general text */
 }
 
 
 /* Header Styling with Gradient */
 header {
-    background: linear-gradient(90deg, #ffeb3b, #4caf50, #2196f3); /* Yellow to Green to Blue */
+    background: linear-gradient(90deg, #333300, #0d3b0d, #102a44); /* Dark Yellow to Dark Green to Dark Blue */
     color: white;
     padding: 1.5rem;
     font-size: 1.8rem;
@@ -25,7 +25,8 @@ header {
     margin: 30px auto;
     padding: 25px;
     text-align: left;
-    background-color: #ffffff;
+    background-color: white;
+    color: #444; /* Ensuring all content text is dark gray */
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
@@ -55,7 +56,7 @@ header {
 /* Projects Section */
 .projects button {
     padding: 12px 18px;
-    background-color: #0d47a1; /* Deep Blue */
+    background-color: #8bc34a; /* Light Green */
     color: white;
     border: none;
     cursor: pointer;
@@ -65,15 +66,16 @@ header {
     margin: 8px;
 }
 .projects button:hover {
-    background-color: #1565c0;
+    background-color: #7cb342;
     transform: scale(1.05);
 }
 
-/* Footer */
+/* Footer with Dark Gradient */
 footer {
-    background-color: #1b5e20;
+    background: linear-gradient(90deg, #333300, #0d3b0d, #102a44); /* Dark Yellow to Dark Green to Dark Blue */
     color: white;
     padding: 1.5rem;
     margin-top: 25px;
     font-size: 1rem;
 }
+
