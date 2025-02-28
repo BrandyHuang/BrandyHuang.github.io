@@ -8,13 +8,15 @@ body {
     color: #1b5e20;
 }
 
-/* Header Styling */
+
+/* Header Styling with Gradient */
 header {
-    background-color: #388e3c; /* Dark green */
+    background: linear-gradient(90deg, #ffeb3b, #4caf50, #2196f3); /* Yellow to Green to Blue */
     color: white;
     padding: 1.5rem;
     font-size: 1.8rem;
     font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Main Content Container */
