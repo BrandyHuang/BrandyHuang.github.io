@@ -39,7 +39,7 @@ header {
 .profile img {
     width: 150px; /* Adjust size as needed */
     height: 150px; /* Ensures the image stays circular */
-    border-radius: 10px; /* Makes the image circular */
+    border-radius: 50%; /* Makes the image circular */
     display: block;
     margin: 0 auto; /* Centers the image */
     border: 4px solid #1b5e20; /* Optional: adds a border with your theme color */
