@@ -70,6 +70,14 @@ header {
     transform: scale(1.05);
 }
 
+.project img {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Ensures the image stays circular */
+    border-radius: 50%; /* Makes image circular */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
 /* Footer with Dark Gradient */
 footer {
     background: linear-gradient(90deg, #665500, #2e6b2e, #205a8a); /* Medium Dark Yellow to Medium Dark Green to Medium Dark Blue */
