@@ -55,13 +55,6 @@ header {
 
 /* Projects Section */
 
-.projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Two per row on larger screens */
-    gap: 20px;
-    justify-content: center;
-}
-
 .project {
     width: 45%; /* Adjust width to fit two in a row */
     text-align: center;
