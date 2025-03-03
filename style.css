@@ -55,11 +55,11 @@ header {
 
 /* Projects Section */
 
-.projects-container {
-    display: flex;
-    flex-wrap: wrap;  /* Allows wrapping if screen is small */
-    gap: 20px; /* Adds space between items */
-    justify-content: space-between; /* Spreads projects evenly */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Two per row on larger screens */
+    gap: 20px;
+    justify-content: center;
 }
 
 .project {
