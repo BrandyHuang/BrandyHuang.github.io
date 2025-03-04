@@ -71,7 +71,7 @@ header {
 }
 
 .project {
-    width: 30%; /* Each project takes up 30% of the width */
+    width: 25%; /* Each project takes up 25% of the width */
     text-align: center;
     background: #fff;
     padding: 15px;
