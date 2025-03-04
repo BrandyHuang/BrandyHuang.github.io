@@ -8,7 +8,6 @@ body {
     color: #444; /* Dark gray font for general text */
 }
 
-
 /* Header Styling with Medium-Dark Gradient */
 header {
     background: linear-gradient(90deg, #665500, #2e6b2e, #205a8a); /* Medium Dark Yellow to Medium Dark Green to Medium Dark Blue */
@@ -21,7 +20,7 @@ header {
 
 /* Main Content Container */
 .container {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 30px auto;
     padding: 25px;
     text-align: left;
@@ -33,17 +32,18 @@ header {
 
 /* Profile Section */
 .profile {
-    text-align: center; /* Centers everything in this section */
+    text-align: center;
 }
 
 .profile img {
-    width: 150px; /* Adjust size as needed */
-    height: 150px; /* Ensures the image stays circular */
-    border-radius: 50%; /* Makes the image circular */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Keeps image circular */
     display: block;
-    margin: 0 auto; /* Centers the image */
-    border: 4px solid #1b5e20; /* Optional: adds a border with your theme color */
+    margin: 0 auto;
+    border: 4px solid #1b5e20;
 }
+
 .profile a {
     color: #1b5e20;
     text-decoration: none;
@@ -54,13 +54,32 @@ header {
 }
 
 /* Projects Section */
+.projects {
+    text-align: center;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
 
 .project {
-    width: 50%; /* Adjust width to fit two in a row */
+    width: 30%; /* Each project takes up 30% of the width */
     text-align: center;
     background: #fff;
     padding: 15px;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
+    width: 100%; /* Makes sure image fits container */
+    height: 180px; /* Fixed height for consistency */
+    border-radius: 10px; /* Slightly rounded corners */
+    object-fit: cover; /* Ensures the image covers the space */
+    margin-bottom: 10px;
 }
 
 .projects button {
@@ -72,27 +91,18 @@ header {
     border-radius: 6px;
     transition: background 0.3s ease, transform 0.2s;
     font-weight: bold;
-    margin: 8px;
+    margin-top: 10px;
 }
 .projects button:hover {
     background-color: #7cb342;
     transform: scale(1.05);
 }
 
-.project img {
-    width: 150px; /* Adjust size as needed */
-    height: 150px; /* Ensures the image stays circular */
-    border-radius: 50%; /* Makes image circular */
-    object-fit: cover;
-    margin-bottom: 10px;
-}
-
 /* Footer with Dark Gradient */
 footer {
-    background: linear-gradient(90deg, #665500, #2e6b2e, #205a8a); /* Medium Dark Yellow to Medium Dark Green to Medium Dark Blue */
+    background: linear-gradient(90deg, #665500, #2e6b2e, #205a8a);
     color: white;
     padding: 1.5rem;
     margin-top: 25px;
     font-size: 1rem;
 }
-
