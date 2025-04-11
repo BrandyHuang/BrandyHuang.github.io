@@ -7,7 +7,7 @@
 ### **Work Experience**  
 - **Data Scientist (Project Manager)** @ Angel Flight West  
 - **Operation Analyst** @ Galaxy Entertainment Group  
-- **Research Assistant** @ Macau University of Science and Technology  
+- **Research Data Analyst** @ Macau University of Science and Technology  
 
 ### **Projects**  
 - **Tool kit for opening an Ice Cream Shop in San Francisco**  
