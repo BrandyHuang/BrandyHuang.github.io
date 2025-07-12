@@ -5,7 +5,7 @@
 - **Hotel Management, BA**  
 
 ### **Work Experience**  
-- **Data Scientist (Project Manager)** @ Angel Flight West  
+- **Lead Data Analyst (Project Manager)** @ Angel Flight West  
 - **Operation Analyst** @ Galaxy Entertainment Group  
 - **Research Data Analyst** @ Macau University of Science and Technology  
 
